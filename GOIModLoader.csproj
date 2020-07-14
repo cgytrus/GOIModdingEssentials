@@ -65,11 +65,6 @@
     <Compile Include="Properties\GOIModLoader\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include=".gitattributes" />
-    <None Include=".gitignore" />
-    <None Include="README.md" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="GOIModApis.csproj">
       <Project>{a293ad15-1430-4857-ab49-8b360decb9de}</Project>
       <Name>GOIModApis</Name>
