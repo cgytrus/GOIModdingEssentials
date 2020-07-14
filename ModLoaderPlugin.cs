@@ -24,8 +24,6 @@ namespace GOIModLoader {
         public void AddModsMainMenuButton() {
             Button button = MainMenuApis.AddMainMenuButton(3, "Mods");
             button.onClick.AddListener(new UnityAction(() => configurationManager.DisplayingWindow = !configurationManager.DisplayingWindow));
-            Button langButton = MainMenuApis.AddMainMenuLanguageBarButton(0, "Mods");
-            langButton.onClick.AddListener(new UnityAction(() => configurationManager.DisplayingWindow = !configurationManager.DisplayingWindow));
         }
         public void AddModsPauseMenuButton() {
             Button button = SettingsMenuApis.AddInGameSettingsMenuButton(0, "Mods");
