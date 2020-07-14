@@ -4,6 +4,11 @@
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
 # User-specific files
+Libs/Assembly-CSharp.dll
+Libs/TextMeshPro-1.0.55.2017.1.0b11.dll
+Libs/UnityEngine.CoreModule.dll
+Libs/UnityEngine.dll
+Libs/UnityEngine.UI.dll
 *.rsuser
 *.suo
 *.user
@@ -338,3 +343,8 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
+/Libs/Assembly-CSharp.dll
+/Libs/UnityEngine.UI.dll
+/Libs/UnityEngine.dll
+/Libs/UnityEngine.CoreModule.dll
+/Libs/TextMeshPro-1.0.55.2017.1.0b11.dll
