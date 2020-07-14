@@ -13,6 +13,7 @@ Libs/*
 !Libs/0Harmony.dll
 !Libs/BepInEx.Harmony.dll
 !Libs/BepInEx.dll
+!Libs/ConfigurationManager.dll
 *.rsuser
 *.suo
 *.user
