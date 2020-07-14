@@ -11,7 +11,7 @@ namespace GOIModLoader {
     [BepInDependency("GOI.plugins.modApis")]
     public class ModLoaderPlugin : BaseUnityPlugin {
         public void Awake() {
-            Debug.Log("Modloader loaded.");
+            Debug.Log("Mod Loader initialized");
         }
         public void Start() {
             Button button = MainMenuApis.AddMainMenuButton(3, "Mod Settings");
