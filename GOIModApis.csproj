@@ -55,6 +55,9 @@
     <Reference Include="UnityEngine.CoreModule">
       <HintPath>Libs\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>Libs\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Libs\UnityEngine.UI.dll</HintPath>
     </Reference>
@@ -63,6 +66,7 @@
     <Compile Include="MainMenuApis.cs" />
     <Compile Include="ModApisPlugin.cs" />
     <Compile Include="Properties\GOIModApis\AssemblyInfo.cs" />
+    <Compile Include="SettingsMenuApis.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -13,6 +13,9 @@ namespace GOIModApis {
                 if(scene.name == "Loader") {
                     MainMenuApis.OnMainMenuLoaded();
                 }
+                else if(scene.name == "Mian") {
+                    SettingsMenuApis.OnMainGameLoaded();
+                }
             };
         }
     }
