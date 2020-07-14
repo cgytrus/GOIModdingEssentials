@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GOIModLoader", "GOIModLoader.csproj", "{597D77E9-62B0-4EAE-94CF-CE802FD4AFEA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GOIModApis", "GOIModApis.csproj", "{A293AD15-1430-4857-AB49-8B360DECB9DE}"
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C7309089-E4C9-4036-8E02-9CCA0779072C}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
@@ -20,6 +22,10 @@ Global
 		{597D77E9-62B0-4EAE-94CF-CE802FD4AFEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{597D77E9-62B0-4EAE-94CF-CE802FD4AFEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{597D77E9-62B0-4EAE-94CF-CE802FD4AFEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A293AD15-1430-4857-AB49-8B360DECB9DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A293AD15-1430-4857-AB49-8B360DECB9DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A293AD15-1430-4857-AB49-8B360DECB9DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A293AD15-1430-4857-AB49-8B360DECB9DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

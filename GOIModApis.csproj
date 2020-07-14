@@ -4,15 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{597D77E9-62B0-4EAE-94CF-CE802FD4AFEA}</ProjectGuid>
+    <ProjectGuid>{A293AD15-1430-4857-AB49-8B360DECB9DE}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties\GOIModLoader</AppDesignerFolder>
-    <RootNamespace>ModLoaderPlugin</RootNamespace>
-    <AssemblyName>ModLoaderPlugin</AssemblyName>
+    <AppDesignerFolder>Properties\GOIModApis</AppDesignerFolder>
+    <RootNamespace>GOIModApis</RootNamespace>
+    <AssemblyName>GOIModApis</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -61,19 +60,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ModLoaderPlugin.cs" />
-    <Compile Include="Properties\GOIModLoader\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include=".gitattributes" />
-    <None Include=".gitignore" />
-    <None Include="README.md" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="GOIModApis.csproj">
-      <Project>{a293ad15-1430-4857-ab49-8b360decb9de}</Project>
-      <Name>GOIModApis</Name>
-    </ProjectReference>
+    <Compile Include="MainMenuApis.cs" />
+    <Compile Include="ModApisPlugin.cs" />
+    <Compile Include="Properties\GOIModApis\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
