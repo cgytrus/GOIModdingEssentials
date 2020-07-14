@@ -7,8 +7,8 @@
     <ProjectGuid>{597D77E9-62B0-4EAE-94CF-CE802FD4AFEA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties\GOIModLoader</AppDesignerFolder>
-    <RootNamespace>ModLoaderPlugin</RootNamespace>
-    <AssemblyName>ModLoaderPlugin</AssemblyName>
+    <RootNamespace>GOIModLoader</RootNamespace>
+    <AssemblyName>GOIModLoader</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
