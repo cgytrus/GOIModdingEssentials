@@ -4,11 +4,15 @@
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
 # User-specific files
-Libs/Assembly-CSharp.dll
-Libs/TextMeshPro-1.0.55.2017.1.0b11.dll
-Libs/UnityEngine.CoreModule.dll
-Libs/UnityEngine.dll
-Libs/UnityEngine.UI.dll
+#Libs/Assembly-CSharp.dll
+#Libs/TextMeshPro-1.0.55.2017.1.0b11.dll
+#Libs/UnityEngine.CoreModule.dll
+#Libs/UnityEngine.dll
+#Libs/UnityEngine.UI.dll
+Libs/*
+!Libs/0Harmony.dll
+!Libs/BepInEx.Harmony.dll
+!Libs/BepInEx.dll
 *.rsuser
 *.suo
 *.user
