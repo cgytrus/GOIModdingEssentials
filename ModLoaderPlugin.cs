@@ -1,9 +1,9 @@
 ﻿using BepInEx;
 
+using GOIModApis;
+
 using UnityEngine;
 using UnityEngine.UI;
-
-using GOIModApis;
 
 namespace GOIModLoader {
     [BepInProcess("GettingOverIt.exe")]
@@ -12,8 +12,9 @@ namespace GOIModLoader {
     public class ModLoaderPlugin : BaseUnityPlugin {
         public void Awake() {
             Debug.Log("Mod Loader initialized");
+            MainMenuApis.onMainMenuLoaded += (_, __) => AddModSettingsButton();
         }
-        public void Start() {
+        public void AddModSettingsButton() {
             Button button = MainMenuApis.AddMainMenuButton(3, "Mod Settings");
         }
     }

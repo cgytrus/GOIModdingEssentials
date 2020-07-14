@@ -1,6 +1,7 @@
 ﻿using BepInEx;
 
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace GOIModApis {
     [BepInProcess("GettingOverIt.exe")]
@@ -8,6 +9,11 @@ namespace GOIModApis {
     class ModApisPlugin : BaseUnityPlugin {
         public void Awake() {
             Debug.Log("Mod Apis initialized");
+            SceneManager.sceneLoaded += (Scene scene, LoadSceneMode mode) => {
+                if(scene.name == "Loader") {
+                    MainMenuApis.OnMainMenuLoaded();
+                }
+            };
         }
     }
 }

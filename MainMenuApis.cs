@@ -1,10 +1,16 @@
-﻿using TMPro;
+﻿using System;
+
+using TMPro;
 
 using UnityEngine;
 using UnityEngine.UI;
 
 namespace GOIModApis {
     public static class MainMenuApis {
+        public static event EventHandler onMainMenuLoaded = delegate { };
+        public static void OnMainMenuLoaded() {
+            onMainMenuLoaded?.Invoke(null, null);
+        }
         public static Button AddMainMenuButton(int positionIndex = 0, string text = "") {
             GameObject originalButton = GameObject.Find("Canvas").transform.Find("Column").Find("Quit").gameObject;
 
