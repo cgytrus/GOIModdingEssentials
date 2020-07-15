@@ -6,7 +6,7 @@ Download and install [BepInEx](https://bepinex.github.io/bepinex_docs/master/art
 Once you've done that, open the [Releases](https://github.com/cgytrus/GOIModdingEssentials/releases) tab, 
 download the latest archive (GOIModdingEssentials.zip), 
 extract the folder from it to `game's folder/BepInEx/plugins`,
-download and install [BepInEx.ConfiguartionManager](https://github.com/BepInEx/BepInEx.ConfigurationManager/releases) the same way 
+download and install [BepInEx.ConfigurationManager](https://github.com/BepInEx/BepInEx.ConfigurationManager/releases) the same way 
 (put the dll right into the `plugins` folder, no need to put it in another folder)
 
 # How to commit
