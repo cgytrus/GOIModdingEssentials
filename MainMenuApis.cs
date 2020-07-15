@@ -5,7 +5,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace GOIModApis {
+namespace ModApis {
     public static class MainMenuApis {
         public static event EventHandler onMainMenuLoaded = delegate { };
         public static void OnMainMenuLoaded() {

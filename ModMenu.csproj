@@ -4,14 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A293AD15-1430-4857-AB49-8B360DECB9DE}</ProjectGuid>
+    <ProjectGuid>{597D77E9-62B0-4EAE-94CF-CE802FD4AFEA}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties\GOIModApis</AppDesignerFolder>
-    <RootNamespace>GOIModApis</RootNamespace>
-    <AssemblyName>GOIModApis</AssemblyName>
+    <AppDesignerFolder>Properties\ModMenu</AppDesignerFolder>
+    <RootNamespace>ModMenu</RootNamespace>
+    <AssemblyName>ModMenu</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -43,6 +44,9 @@
     <Reference Include="BepInEx.Harmony">
       <HintPath>Libs\BepInEx.Harmony.dll</HintPath>
     </Reference>
+    <Reference Include="ConfigurationManager">
+      <HintPath>Libs\ConfigurationManager.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
@@ -63,10 +67,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MainMenuApis.cs" />
-    <Compile Include="ModApisPlugin.cs" />
-    <Compile Include="Properties\GOIModApis\AssemblyInfo.cs" />
-    <Compile Include="SettingsMenuApis.cs" />
+    <Compile Include="ModMenuPlugin.cs" />
+    <Compile Include="Properties\ModMenu\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="ModApis.csproj">
+      <Project>{a293ad15-1430-4857-ab49-8b360decb9de}</Project>
+      <Name>ModApis</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

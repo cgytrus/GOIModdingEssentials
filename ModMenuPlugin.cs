@@ -1,18 +1,18 @@
 ﻿using BepInEx;
 using BepInEx.Bootstrap;
 
-using GOIModApis;
+using ModApis;
 
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
 
-namespace GOIModLoader {
+namespace ModLoader {
     [BepInProcess("GettingOverIt.exe")]
-    [BepInPlugin("GOI.plugins.modLoader", "Mod Loader", "0.1.0")]
+    [BepInPlugin("GOI.plugins.modMenu", "Mod Menu", "0.1.0")]
     [BepInDependency("GOI.plugins.modApis")]
     [BepInDependency("com.bepis.bepinex.configurationmanager")]
-    public class ModLoaderPlugin : BaseUnityPlugin {
+    public class ModMenuPlugin : BaseUnityPlugin {
         private ConfigurationManager.ConfigurationManager configurationManager;
         public void Awake() {
             configurationManager = (ConfigurationManager.ConfigurationManager)
