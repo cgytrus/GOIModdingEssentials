@@ -1,5 +1,7 @@
 ﻿using System;
 
+//using I2.Loc;
+
 using TMPro;
 
 using UnityEngine;
@@ -20,6 +22,8 @@ namespace ModApis {
 
             TextMeshProUGUI textComponent = newButton.transform.Find("Text").GetComponent<TextMeshProUGUI>();
             textComponent.SetText(text);
+            /*Localize localize = newButton.transform.Find("Text").GetComponent<Localize>();
+            localize.SetTerm(text, text);*/
 
             Button button = newButton.GetComponent<Button>();
             button.onClick = new Button.ButtonClickedEvent();
