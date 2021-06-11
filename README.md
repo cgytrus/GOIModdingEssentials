@@ -1,6 +1,3 @@
-# Important note:
-This version of GOI modding essentials is currently in development, no fixes have been put in place that result in functionality for 1.6.
-
 Stuff you need to start modding Getting Over It with BepInEx
 
 # How to use
@@ -16,7 +13,7 @@ download and install [BepInEx.ConfigurationManager](https://github.com/BepInEx/B
 Clone the repository to your pc and add additional dlls to put into the Libs folder (get them in `game's folder/GettingOverIt_Data/Managed`):
 - Assembly-CSharp.dll
 - netstandard.dll
-- UnityEngine.TextMeshPro.dll
+- Unity.TextMeshPro.dll
 - UnityEngine.CoreModule.dll
 - UnityEngine.dll
 - UnityEngine.TextRenderingModule.dll
