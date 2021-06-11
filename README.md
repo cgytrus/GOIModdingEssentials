@@ -1,5 +1,5 @@
 # Important note:
-# This version of GOI modding essentials is currently in development, no fixes have been put in place that result in functionality for 1.6.
+This version of GOI modding essentials is currently in development, no fixes have been put in place that result in functionality for 1.6.
 
 Stuff you need to start modding Getting Over It with BepInEx
 
